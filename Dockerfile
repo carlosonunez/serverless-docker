@@ -3,3 +3,5 @@ LABEL maintaner="Carlos Nunez <dev@carlosnunez.me>"
 ARG VERSION 
 
 RUN npm -g install "serverless@$VERSION"
+
+ENTRYPOINT [ "serverless" ]
